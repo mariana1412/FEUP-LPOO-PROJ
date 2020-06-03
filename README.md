@@ -1,4 +1,4 @@
-# lpoo-2020-g76
+# FEUP - Laboratório de Programação Orientada por Objectos - Projeto
 ## SKY JUMP 
 
 The game consists of an adaptation of SKY JUMP from Pou. 

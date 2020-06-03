@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="g76.Tests.StateCommandTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-05-29T10:20:36" hostname="LAPTOP-1MK3BJ23" time="0.232">
+  <properties/>
+  <testcase name="changeToWin" classname="g76.Tests.StateCommandTest" time="0.006"/>
+  <testcase name="isFinished" classname="g76.Tests.StateCommandTest" time="0.003"/>
+  <testcase name="changeToGameOver" classname="g76.Tests.StateCommandTest" time="0.003"/>
+  <testcase name="nextOpCommand" classname="g76.Tests.StateCommandTest" time="0.076"/>
+  <testcase name="prevOpCommand" classname="g76.Tests.StateCommandTest" time="0.002"/>
+  <testcase name="changeToMenu" classname="g76.Tests.StateCommandTest" time="0.001"/>
+  <testcase name="changeToPlay" classname="g76.Tests.StateCommandTest" time="0.001"/>
+  <testcase name="changeToQuit" classname="g76.Tests.StateCommandTest" time="0.001"/>
+  <testcase name="executeAction" classname="g76.Tests.StateCommandTest" time="0.135"/>
+  <testcase name="changeToInstructions" classname="g76.Tests.StateCommandTest" time="0.001"/>
+  <testcase name="constructorStates" classname="g76.Tests.StateCommandTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

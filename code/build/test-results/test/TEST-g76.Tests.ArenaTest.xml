@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="g76.Tests.ArenaTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-05-29T10:20:34" hostname="LAPTOP-1MK3BJ23" time="0.148">
+  <properties/>
+  <testcase name="lostPlayer" classname="g76.Tests.ArenaTest" time="0.008"/>
+  <testcase name="vulnerable" classname="g76.Tests.ArenaTest" time="0.0"/>
+  <testcase name="catchedCoin" classname="g76.Tests.ArenaTest" time="0.001"/>
+  <testcase name="updateKiller" classname="g76.Tests.ArenaTest" time="0.0"/>
+  <testcase name="removeKiller" classname="g76.Tests.ArenaTest" time="0.001"/>
+  <testcase name="winPlayer" classname="g76.Tests.ArenaTest" time="0.0"/>
+  <testcase name="addObserver" classname="g76.Tests.ArenaTest" time="0.028"/>
+  <testcase name="checkCollisions" classname="g76.Tests.ArenaTest" time="0.0"/>
+  <testcase name="speed" classname="g76.Tests.ArenaTest" time="0.001"/>
+  <testcase name="addElement" classname="g76.Tests.ArenaTest" time="0.0"/>
+  <testcase name="removePlatform" classname="g76.Tests.ArenaTest" time="0.053"/>
+  <testcase name="addNewEnemy" classname="g76.Tests.ArenaTest" time="0.0"/>
+  <testcase name="updateElements" classname="g76.Tests.ArenaTest" time="0.001"/>
+  <testcase name="fallingExecute" classname="g76.Tests.ArenaTest" time="0.001"/>
+  <testcase name="removeCoin" classname="g76.Tests.ArenaTest" time="0.048"/>
+  <testcase name="moveElementTo" classname="g76.Tests.ArenaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

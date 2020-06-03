@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="g76.Tests.ViewTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-05-29T10:20:36" hostname="LAPTOP-1MK3BJ23" time="0.227">
+  <properties/>
+  <testcase name="drawBackground" classname="g76.Tests.ViewTest" time="0.008"/>
+  <testcase name="drawInstructions" classname="g76.Tests.ViewTest" time="0.014"/>
+  <testcase name="drawCoin" classname="g76.Tests.ViewTest" time="0.004"/>
+  <testcase name="drawMenu" classname="g76.Tests.ViewTest" time="0.059"/>
+  <testcase name="setInBackground" classname="g76.Tests.ViewTest" time="0.0"/>
+  <testcase name="drawKiller" classname="g76.Tests.ViewTest" time="0.058"/>
+  <testcase name="drawPlayer" classname="g76.Tests.ViewTest" time="0.066"/>
+  <testcase name="drawPlatform" classname="g76.Tests.ViewTest" time="0.003"/>
+  <testcase name="drawGameOver" classname="g76.Tests.ViewTest" time="0.008"/>
+  <testcase name="drawWin" classname="g76.Tests.ViewTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

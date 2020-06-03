@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="g76.Tests.FunctionsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-29T10:20:33" hostname="LAPTOP-1MK3BJ23" time="1.43">
+  <properties/>
+  <testcase name="OptionsCommand" classname="g76.Tests.FunctionsTest" time="1.38"/>
+  <testcase name="game" classname="g76.Tests.FunctionsTest" time="0.049"/>
+  <testcase name="optionToString" classname="g76.Tests.FunctionsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

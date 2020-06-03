@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'info.solidsoft.pitest' version '1.5.1'
+}
+
+group 'g76'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClassName = "g76.Application"
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.googlecode.lanterna', name: 'lanterna', version: '3.0.1'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.25.0'
+}

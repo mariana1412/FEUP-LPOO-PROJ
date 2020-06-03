@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="g76.Tests.GuiClassesTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-29T10:20:35" hostname="LAPTOP-1MK3BJ23" time="0.704">
+  <properties/>
+  <testcase name="gameOverGui" classname="g76.Tests.GuiClassesTest" time="0.354"/>
+  <testcase name="winGui" classname="g76.Tests.GuiClassesTest" time="0.011"/>
+  <testcase name="playGui" classname="g76.Tests.GuiClassesTest" time="0.269"/>
+  <testcase name="menuGui" classname="g76.Tests.GuiClassesTest" time="0.041"/>
+  <testcase name="instructionsGui" classname="g76.Tests.GuiClassesTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

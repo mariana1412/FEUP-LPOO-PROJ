@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Enemy.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package g76.Model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public class Enemy extends Element {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private Boolean touched, isNotOnScreen;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Enemy(int x, int y, int width, int height) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        super(x, y, width, height);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.touched = false;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.isNotOnScreen = true;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public void setIsNotOnScreen(Boolean notOnScreen) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.isNotOnScreen = notOnScreen;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_14'/>
+14
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_14'>2</a>
+<span>
+
+1. setIsNotOnScreen : negated conditional &rarr; KILLED<br/>
+
+2. setIsNotOnScreen : removed call to g76/Model/Enemy::setPosition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (isNotOnScreen) setPosition(new Position(0, 0));</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public void setTouched(boolean touched) {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.touched = touched;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Boolean getTouched() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_23'/>
+23
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_23'>2</a>
+<span>
+
+1. getTouched : replaced Boolean return with False for g76/Model/Enemy::getTouched &rarr; KILLED<br/>
+
+2. getTouched : replaced Boolean return with True for g76/Model/Enemy::getTouched &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return touched;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public void moveEnemy() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_27'/>
+27
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_27'>1</a>
+<span>
+
+1. moveEnemy : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        Position pos = new Position(getPosition().getX() + 1, getPosition().getY());</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_28'/>
+28
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_28'>1</a>
+<span>
+
+1. moveEnemy : removed call to g76/Model/Enemy::setPosition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        setPosition(pos);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Boolean isNotOnScreen() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_32'/>
+32
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_32'>2</a>
+<span>
+
+1. isNotOnScreen : replaced Boolean return with False for g76/Model/Enemy::isNotOnScreen &rarr; KILLED<br/>
+
+2. isNotOnScreen : replaced Boolean return with True for g76/Model/Enemy::isNotOnScreen &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return isNotOnScreen;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_33'/>
+33
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_33'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_34'/>
+34
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_34'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_35'/>
+35
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_35'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public void resetPosition() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_36'/>
+36
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_36'>1</a>
+<span>
+
+1. resetPosition : removed call to g76/Model/Enemy::setPosition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        setPosition(new Position(0, getPosition().getY()));</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_37'/>
+37
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_37'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        touched = false;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_38'/>
+38
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_38'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_39'/>
+39
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_39'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_14'>14</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_14'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>setIsNotOnScreen<br/><b>Killed by : </b>g76.Tests.ElementTest.killerSetIsNotOnScreeen(g76.Tests.ElementTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>setIsNotOnScreen<br/><b>Killed by : </b>g76.Tests.ElementTest.killerSetIsNotOnScreeen(g76.Tests.ElementTest)</span></span> removed call to g76/Model/Enemy::setPosition &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_23'>23</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_23'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getTouched<br/><b>Killed by : </b>g76.Tests.ArenaTest.vulnerable(g76.Tests.ArenaTest)</span></span> replaced Boolean return with False for g76/Model/Enemy::getTouched &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getTouched<br/><b>Killed by : </b>g76.Tests.ElementTest.ConstructingKiller(g76.Tests.ElementTest)</span></span> replaced Boolean return with True for g76/Model/Enemy::getTouched &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_27'>27</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_27'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>moveEnemy<br/><b>Killed by : </b>g76.Tests.ElementTest.moveKiller(g76.Tests.ElementTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_28'>28</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_28'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>moveEnemy<br/><b>Killed by : </b>g76.Tests.ElementTest.moveKiller(g76.Tests.ElementTest)</span></span> removed call to g76/Model/Enemy::setPosition &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_32'>32</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_32'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isNotOnScreen<br/><b>Killed by : </b>g76.Tests.ElementTest.ConstructingKiller(g76.Tests.ElementTest)</span></span> replaced Boolean return with False for g76/Model/Enemy::isNotOnScreen &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isNotOnScreen<br/><b>Killed by : </b>g76.Tests.ArenaTest.addNewEnemy(g76.Tests.ArenaTest)</span></span> replaced Boolean return with True for g76/Model/Enemy::isNotOnScreen &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@6ebf5f26_36'>36</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@6ebf5f26_36'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>resetPosition<br/><b>Killed by : </b>g76.Tests.ElementTest.resetPositionKiller(g76.Tests.ElementTest)</span></span> removed call to g76/Model/Enemy::setPosition &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>g76.Tests.ArenaTest.speed(g76.Tests.ArenaTest) (8 ms)</li><li>g76.Tests.ArenaTest.lostPlayer(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.ArenaTest.catchedCoin(g76.Tests.ArenaTest) (3 ms)</li><li>g76.Tests.ArenaTest.addNewEnemy(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.PlayerActionTest.JumpLeft(g76.Tests.PlayerActionTest) (146 ms)</li><li>g76.Tests.ElementTest.moveKiller(g76.Tests.ElementTest) (3 ms)</li><li>g76.Tests.ArenaTest.addObserver(g76.Tests.ArenaTest) (1104 ms)</li><li>g76.Tests.StateCommandTest.changeToPlay(g76.Tests.StateCommandTest) (1 ms)</li><li>g76.Tests.PlayerActionTest.PlayerJump(g76.Tests.PlayerActionTest) (4 ms)</li><li>g76.Tests.ArenaTest.removeKiller(g76.Tests.ArenaTest) (12 ms)</li><li>g76.Tests.ArenaTest.checkCollisions(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.ArenaTest.vulnerable(g76.Tests.ArenaTest) (9 ms)</li><li>g76.Tests.ElementTest.ConstructingKiller(g76.Tests.ElementTest) (1 ms)</li><li>g76.Tests.ArenaTest.addElement(g76.Tests.ArenaTest) (22 ms)</li><li>g76.Tests.ElementTest.resetPositionKiller(g76.Tests.ElementTest) (1 ms)</li><li>g76.Tests.ArenaTest.fallingExecute(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.GuiClassesTest.playGui(g76.Tests.GuiClassesTest) (263 ms)</li><li>g76.Tests.PlayerActionTest.MoveLeft(g76.Tests.PlayerActionTest) (2 ms)</li><li>g76.Tests.PlayerActionTest.CantJumpRight(g76.Tests.PlayerActionTest) (4 ms)</li><li>g76.Tests.StateCommandTest.executeAction(g76.Tests.StateCommandTest) (134 ms)</li><li>g76.Tests.ArenaTest.removeCoin(g76.Tests.ArenaTest) (137 ms)</li><li>g76.Tests.ArenaTest.updateElements(g76.Tests.ArenaTest) (1 ms)</li><li>g76.Tests.PlayerActionTest.CantJump(g76.Tests.PlayerActionTest) (1 ms)</li><li>g76.Tests.StateCommandTest.isFinished(g76.Tests.StateCommandTest) (3 ms)</li><li>g76.Tests.StateCommandTest.changeToWin(g76.Tests.StateCommandTest) (1 ms)</li><li>g76.Tests.StateCommandTest.constructorStates(g76.Tests.StateCommandTest) (1 ms)</li><li>g76.Tests.ArenaTest.updateKiller(g76.Tests.ArenaTest) (10 ms)</li><li>g76.Tests.PlayerActionTest.CantJumpLeft(g76.Tests.PlayerActionTest) (2 ms)</li><li>g76.Tests.StateCommandTest.changeToGameOver(g76.Tests.StateCommandTest) (3 ms)</li><li>g76.Tests.ArenaTest.winPlayer(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.PlayerActionTest.MoveRight(g76.Tests.PlayerActionTest) (1 ms)</li><li>g76.Tests.ElementTest.killerSetIsNotOnScreeen(g76.Tests.ElementTest) (2 ms)</li><li>g76.Tests.PlayerActionTest.JumpRight(g76.Tests.PlayerActionTest) (14 ms)</li><li>g76.Tests.ArenaTest.removePlatform(g76.Tests.ArenaTest) (77 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.5.1
+
+</body>
+</html>

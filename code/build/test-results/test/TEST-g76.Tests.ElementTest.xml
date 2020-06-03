@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="g76.Tests.ElementTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-29T10:20:35" hostname="LAPTOP-1MK3BJ23" time="0.009">
+  <properties/>
+  <testcase name="moveKiller" classname="g76.Tests.ElementTest" time="0.0"/>
+  <testcase name="moveElement" classname="g76.Tests.ElementTest" time="0.001"/>
+  <testcase name="ElementGetHeight" classname="g76.Tests.ElementTest" time="0.0"/>
+  <testcase name="addScore" classname="g76.Tests.ElementTest" time="0.0"/>
+  <testcase name="ConstructingPlatform" classname="g76.Tests.ElementTest" time="0.0"/>
+  <testcase name="reduceHealth" classname="g76.Tests.ElementTest" time="0.004"/>
+  <testcase name="killerSetIsNotOnScreeen" classname="g76.Tests.ElementTest" time="0.0"/>
+  <testcase name="ElementGetWidth" classname="g76.Tests.ElementTest" time="0.001"/>
+  <testcase name="ConstructingKiller" classname="g76.Tests.ElementTest" time="0.0"/>
+  <testcase name="ConstructingPlayer" classname="g76.Tests.ElementTest" time="0.001"/>
+  <testcase name="resetPositionKiller" classname="g76.Tests.ElementTest" time="0.0"/>
+  <testcase name="ConstructingCoin" classname="g76.Tests.ElementTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

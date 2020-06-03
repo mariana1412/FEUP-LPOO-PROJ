@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>ArenaCreator.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package g76.View;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import g76.Model.*;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class ArenaCreator {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Arena createArena(int width, int height) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_7'/>
+7
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_7'>2</a>
+<span>
+
+1. createArena : Replaced integer subtraction with addition &rarr; SURVIVED<br/>
+
+2. createArena : Replaced integer division with multiplication &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        int posX= width / 2 - 2;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_8'/>
+8
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_8'>1</a>
+<span>
+
+1. createArena : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        int posY = height - 1;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        Player player = new Player(posX, posY , 2, 1);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        Arena arena = new Arena(player, width, height);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_11'/>
+11
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_11'>2</a>
+<span>
+
+1. createArena : Replaced integer division with multiplication &rarr; KILLED<br/>
+
+2. createArena : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        int x = width / 2 + 2;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_12'/>
+12
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_12'>1</a>
+<span>
+
+1. createArena : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        int y = player.getPosition().getY() - 4;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_13'/>
+13
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_13'>1</a>
+<span>
+
+1. createArena : removed call to g76/Model/Arena::addElement &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        arena.addElement(new Platform(x, y, 8, 1));</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        while (true) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_16'/>
+16
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_16'>1</a>
+<span>
+
+1. createArena : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            if (!arena.addNewPlatform()) break;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        Position secondPlatform = arena.getAllElements().get(2).getPosition();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_20'/>
+20
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_20'>2</a>
+<span>
+
+1. createArena : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+2. createArena : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        Coin coin = new Coin(secondPlatform.getX() + 4, secondPlatform.getY() - 1, 1, 1);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_22'/>
+22
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_22'>1</a>
+<span>
+
+1. createArena : removed call to g76/Model/Arena::addElement &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        arena.addElement(coin);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_24'/>
+24
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_24'>1</a>
+<span>
+
+1. createArena : replaced return value with null for g76/View/ArenaCreator::createArena &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return arena;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@240c626d_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@240c626d_7'>7</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_7'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.PlayerActionTest.MoveRight(g76.Tests.PlayerActionTest)</span></span> Replaced integer division with multiplication &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>none</span></span> Replaced integer subtraction with addition &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@240c626d_8'>8</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_8'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@240c626d_11'>11</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_11'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest)</span></span> Replaced integer division with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@240c626d_12'>12</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_12'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@240c626d_13'>13</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_13'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest)</span></span> removed call to g76/Model/Arena::addElement &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@240c626d_16'>16</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_16'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.updateElements(g76.Tests.ArenaTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@240c626d_20'>20</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_20'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@240c626d_22'>22</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_22'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest)</span></span> removed call to g76/Model/Arena::addElement &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@240c626d_24'>24</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@240c626d_24'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>createArena<br/><b>Killed by : </b>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest)</span></span> replaced return value with null for g76/View/ArenaCreator::createArena &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>g76.Tests.ArenaTest.speed(g76.Tests.ArenaTest) (8 ms)</li><li>g76.Tests.ArenaTest.lostPlayer(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.ArenaTest.catchedCoin(g76.Tests.ArenaTest) (3 ms)</li><li>g76.Tests.ArenaTest.addNewEnemy(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.PlayerActionTest.JumpLeft(g76.Tests.PlayerActionTest) (146 ms)</li><li>g76.Tests.ArenaTest.addObserver(g76.Tests.ArenaTest) (1104 ms)</li><li>g76.Tests.StateCommandTest.changeToPlay(g76.Tests.StateCommandTest) (1 ms)</li><li>g76.Tests.PlayerActionTest.PlayerJump(g76.Tests.PlayerActionTest) (4 ms)</li><li>g76.Tests.ArenaTest.removeKiller(g76.Tests.ArenaTest) (12 ms)</li><li>g76.Tests.ArenaTest.checkCollisions(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.ArenaTest.vulnerable(g76.Tests.ArenaTest) (9 ms)</li><li>g76.Tests.ArenaTest.addElement(g76.Tests.ArenaTest) (22 ms)</li><li>g76.Tests.ArenaTest.fallingExecute(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.ArenaTest.moveElementTo(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.GuiClassesTest.playGui(g76.Tests.GuiClassesTest) (263 ms)</li><li>g76.Tests.PlayerActionTest.MoveLeft(g76.Tests.PlayerActionTest) (2 ms)</li><li>g76.Tests.PlayerActionTest.CantJumpRight(g76.Tests.PlayerActionTest) (4 ms)</li><li>g76.Tests.StateCommandTest.executeAction(g76.Tests.StateCommandTest) (134 ms)</li><li>g76.Tests.ArenaTest.removeCoin(g76.Tests.ArenaTest) (137 ms)</li><li>g76.Tests.ArenaTest.updateElements(g76.Tests.ArenaTest) (1 ms)</li><li>g76.Tests.PlayerActionTest.CantJump(g76.Tests.PlayerActionTest) (1 ms)</li><li>g76.Tests.StateCommandTest.isFinished(g76.Tests.StateCommandTest) (3 ms)</li><li>g76.Tests.StateCommandTest.changeToWin(g76.Tests.StateCommandTest) (1 ms)</li><li>g76.Tests.StateCommandTest.constructorStates(g76.Tests.StateCommandTest) (1 ms)</li><li>g76.Tests.ArenaTest.updateKiller(g76.Tests.ArenaTest) (10 ms)</li><li>g76.Tests.PlayerActionTest.CantJumpLeft(g76.Tests.PlayerActionTest) (2 ms)</li><li>g76.Tests.StateCommandTest.changeToGameOver(g76.Tests.StateCommandTest) (3 ms)</li><li>g76.Tests.ArenaTest.winPlayer(g76.Tests.ArenaTest) (2 ms)</li><li>g76.Tests.PlayerActionTest.MoveRight(g76.Tests.PlayerActionTest) (1 ms)</li><li>g76.Tests.PlayerActionTest.JumpRight(g76.Tests.PlayerActionTest) (14 ms)</li><li>g76.Tests.ArenaTest.removePlatform(g76.Tests.ArenaTest) (77 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.5.1
+
+</body>
+</html>

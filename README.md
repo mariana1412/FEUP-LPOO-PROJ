@@ -15,4 +15,4 @@ The player moves to the left using the A key, moves up (jumps up) using the W ke
 
 Instructions can be checked on the main menu.
 
-
+> This project was developed by: Mariana Truta (up201806543@fe.up.pt) and Rita Peixoto (up201806257@fe.up.pt) for the LPOO course in 2019/2020.
